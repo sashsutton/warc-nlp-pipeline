@@ -1,0 +1,42 @@
+# Données
+# Les WARC sont lourds et sous droits BnF, ils restent en local
+data/raw/
+data/processed/
+data/outputs/
+
+
+# Environnements Python
+
+.venv/
+venv/
+env/
+.env
+.python-version
+
+
+# Caches & artefacts Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+
+# Jupyter
+
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+
+# Modèles téléchargés (spaCy, HuggingFace)
+models/
+.cache/
+
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
